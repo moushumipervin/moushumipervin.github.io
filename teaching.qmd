@@ -1,0 +1,14 @@
+---
+title: "Teaching & Mentoring"
+pagetitle: "Teaching & Mentoring | Moushumi Pervin"
+title-block-banner: false
+---
+
+```{=html}
+<header class="page-intro"><p class="eyebrow">TEACHING & MENTORING</p><h1>From first concepts<br>to statistical reasoning.</h1><p class="lead">My teaching experience spans introductory statistics, statistical theory, stochastic processes, and programming in the United States and Bangladesh.</p></header>
+<section class="section teaching-overview"><div class="two-column"><h2>Experience across<br>courses and contexts.</h2><div><p>I have taught students in statistics, business, and computer science. Before my doctoral studies, I held lecturer positions at Jagannath University and Bangladesh Army International University of Science and Technology (BAIUST).</p><p>At Iowa State University, I have served as both an instructor and a graduate teaching assistant.</p></div></div></section>
+<section class="section"><p class="eyebrow">SELECTED TEACHING EXPERIENCE</p><div class="teaching-entry"><div><h2>Iowa State University</h2><p class="entry-meta">Instructor · January–May 2026</p></div><div><h3>STAT 2260: Introduction to Business Statistics</h3><p>Undergraduate instruction in introductory business statistics.</p><p class="entry-meta">Graduate Teaching Assistant · August 2021–December 2022</p></div></div>
+<div class="teaching-entry"><div><h2>Jagannath University</h2><p class="entry-meta">Lecturer in Statistics · June 2019–July 2021</p></div><div><h3>Courses taught</h3><ul><li>Theory of Estimation</li><li>Stochastic Processes</li><li>C++ Programming</li><li>Introductory Statistics</li></ul></div></div>
+<div class="teaching-entry"><div><h2>BAIUST</h2><p class="entry-meta">Lecturer in Statistics · September 2017–June 2019</p></div><div><h3>Courses taught</h3><ul><li>Introductory Statistics for Computer Science</li><li>Business Statistics</li><li>Business Mathematics</li></ul></div></div></section>
+<section class="section"><p class="eyebrow">MENTORING</p><div class="two-column"><h2>Supporting students.</h2><div><p>I mentored two graduate students in Iowa State’s Department of Statistics in Fall 2022. At Jagannath University, I mentored undergraduate and graduate statistics students during 2019–2020.</p><p>My broader service includes evaluating activities for Iowa State’s Go Further Girls in STEM program in 2022.</p></div></div></section>
+```

@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: dist
+  resources:
+    - assets/
+website:
+  title: "Moushumi Pervin"
+  description: "Mst Moushumi Pervin is a Ph.D. candidate in Statistics at Iowa State University studying calibration, missing data, and high-dimensional mediation."
+  navbar:
+    title: "Moushumi Pervin"
+    background: light
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+  page-footer:
+    left: "Mst Moushumi Pervin · Iowa State University"
+    right: "[Email](mailto:moushumi@iastate.edu) · [GitHub](https://github.com/moushumipervin)"
+  search: false
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+    anchor-sections: false
+    lang: en
