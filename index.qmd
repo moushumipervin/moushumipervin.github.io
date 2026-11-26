@@ -6,7 +6,11 @@ title-block-banner: false
 
 ```{=html}
 <section class="hero">
-<div class="hero-copy"><p class="eyebrow">STATISTICS · THEORY · APPLICATIONS</p>
+<div class="hero-copy"><img
+  src="assets/portrait.png"
+  alt="Mst Moushumi Pervin"
+  style="width:180px; max-width:100%; height:auto; border-radius:12px; margin-bottom:24px;"
+><p class="eyebrow">STATISTICS · THEORY · APPLICATIONS</p>
 <h1>Mst Moushumi<br>Pervin<span class="name-dot">.</span></h1>
 <p class="position">Ph.D. Candidate in Statistics<br><a href="https://www.iastate.edu/">Iowa State University</a></p>
 <p class="hero-statement">Reliable inference.<br>More from the data we have.</p>
