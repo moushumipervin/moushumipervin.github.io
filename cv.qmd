@@ -9,26 +9,26 @@ pagetitle: "Curriculum Vitae"
 
 **Ph.D. in Statistics**, [Iowa State University](https://www.iastate.edu/)  
 [Department of Statistics](https://www.stat.iastate.edu/) · Expected May 2027  
-Major advisor: [Professor Jae Kwang Kim](https://sites.google.com/view/jaekwangkim/home)  
-Co-major advisor: [Professor Chunlin Li](https://statistics.as.virginia.edu/people/chunlin-li)
+Major advisor: Professor [Jae Kwang Kim](https://sites.google.com/view/jaekwangkim/home)  
+Co-major advisor: Professor [Chunlin Li](https://statistics.as.virginia.edu/people/chunlin-li)
 
 **M.S. in Statistics**, [Iowa State University](https://www.iastate.edu/)  
 Expected December 2026  
-Master’s creative component with [Professor Jae Kwang Kim](https://sites.google.com/view/jaekwangkim/home).
+Master’s creative component with Professor [Jae Kwang Kim](https://sites.google.com/view/jaekwangkim/home).
 
 **M.S. in Statistics**, [Jagannath University](https://jnu.ac.bd/), Bangladesh  
-2017 · First in class.
+2017 ·
 
 **B.Sc. in Statistics**, [Jagannath University](https://jnu.ac.bd/), Bangladesh  
-2015 · First in class.
+2015 · 
 
 ## Research and teaching appointments
 
 - **Graduate Research Assistant**, [Center for Survey Statistics and Methodology](https://www.cssm.iastate.edu/), Iowa State University · January 2023–present.
 - **Instructor**, [Department of Statistics](https://www.stat.iastate.edu/), Iowa State University · January–May 2026.
 - **Graduate Teaching Assistant**, Iowa State University · August 2021–December 2022.
-- **Lecturer in Statistics**, [Jagannath University](https://jnu.ac.bd/) · June 2019–July 2021.
-- **Lecturer in Statistics**, [BAIUST](https://baiust.ac.bd/) · September 2017–June 2019.
+- **Lecturer**, [Department of Statistics](https://jnu.ac.bd/department/portal/statistics), [Jagannath University](https://jnu.ac.bd/) · June 2019–July 2021.
+- **Lecturer in Statistics**, [Department of Business Administration](https://baiust.ac.bd/department-of-ba/), [BAIUST](https://baiust.ac.bd/) · September 2017–June 2019.
 
 [Courses and mentoring](teaching.qmd) · [Publications](publications.qmd)
 
