@@ -6,9 +6,10 @@ html{scroll-padding-top:100px}body{background:var(--paper);color:var(--ink);font
 .academic-profile{position:fixed;top:118px;left:max(30px,calc((100vw - 1090px)/2));width:220px;max-height:calc(100vh - 145px);overflow:auto;padding-right:10px;z-index:1}.portrait-link{display:inline-block}.profile-photo{display:block;width:170px;max-width:100%;height:auto;border-radius:7px;border:1px solid var(--line)}.profile-name{font-family:Georgia,'Times New Roman',serif;font-size:23px;line-height:1.35;margin:19px 0 9px;letter-spacing:-.025em}.profile-role{font-size:13px;margin:0 0 10px}.profile-affiliation{font-size:13px;line-height:1.8;margin:0 0 9px}.profile-location,.profile-graduation{color:var(--muted);font-size:12px;margin:0 0 7px}.profile-links{display:flex;flex-direction:column;gap:7px;font-size:13px;margin:19px 0}.profile-links>a{display:block}.profile-links .link-label{display:block;font-size:11px;color:var(--muted);margin-bottom:1px}.profile-links span{overflow-wrap:anywhere}.cv-download,.download-button{display:inline-flex;gap:15px;align-items:center;border:1px solid #b9cec8;border-radius:4px;padding:7px 13px;font-size:13px;background:var(--soft);text-decoration:none!important}.cv-download:hover,.download-button:hover{background:#eaf1ee}.nav-footer{border-top:1px solid var(--line);font-size:11px;color:var(--muted);max-width:1150px;margin:auto;padding:22px 30px 22px 305px;gap:20px}.nav-footer p{margin:0}
 @media(max-width:1100px) and (min-width:901px){.navbar-nav{gap:2px}.nav-link{font-size:13px}.navbar-brand{font-size:19px}}
 @media(max-width:900px){.academic-profile{position:static;width:auto;max-width:790px;max-height:none;overflow:visible;margin:30px auto 0;padding:0 25px;display:grid;grid-template-columns:130px 1fr;gap:25px;align-items:start}.profile-photo{width:130px}.profile-name{margin:0 0 7px;font-size:23px}.profile-role{margin-bottom:5px}.profile-affiliation{margin-bottom:5px}.profile-location{display:none}.profile-graduation{margin:7px 0}.profile-links{flex-direction:row;flex-wrap:wrap;gap:6px 15px;margin:12px 0}.profile-links .link-label{display:inline}.profile-links span+span{display:none}.cv-download{padding:4px 11px;font-size:12px}#quarto-content{max-width:790px;padding:0 25px}main.content{margin:0;padding:32px 0 40px}.nav-footer{padding:22px 25px;max-width:790px}.navbar-container{max-width:840px;padding:0 25px}.navbar{padding:13px 0}.navbar-nav{gap:0}h1{font-size:31px}}
-@media(max-width:480px){body{font-size:15px;line-height:1.75}.academic-profile{grid-template-columns:95px 1fr;gap:19px;padding:0 20px;margin-top:25px}.profile-photo{width:195px}.profile-name{font-size:21px}.profile-role,.profile-affiliation{font-size:12px}.profile-graduation{font-size:11px}.profile-links{font-size:12px;gap:5px 12px}.navbar-brand{font-size:18px}.navbar-container{padding:0 20px}#quarto-content{padding:0 20px}main.content{padding-top:30px}h1{font-size:29px}h2{font-size:21px;margin-top:28px}h3{font-size:17px}.nav-footer{font-size:10px;display:block;text-align:center}.nav-footer-left,.nav-footer-right{text-align:center!important;margin-bottom:7px}}
+@media(max-width:480px){body{font-size:15px;line-height:1.75}.academic-profile{grid-template-columns:95px 1fr;gap:19px;padding:0 20px;margin-top:25px}.profile-photo{width:95px}.profile-name{font-size:21px}.profile-role,.profile-affiliation{font-size:12px}.profile-graduation{font-size:11px}.profile-links{font-size:12px;gap:5px 12px}.navbar-brand{font-size:18px}.navbar-container{padding:0 20px}#quarto-content{padding:0 20px}main.content{padding-top:30px}h1{font-size:29px}h2{font-size:21px;margin-top:28px}h3{font-size:17px}.nav-footer{font-size:10px;display:block;text-align:center}.nav-footer-left,.nav-footer-right{text-align:center!important;margin-bottom:7px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.academic-profile,.navbar,.nav-footer{display:none}main.content{margin:0;padding:0}#quarto-content{max-width:none;padding:0}body{font-size:11pt}a{color:inherit}h1{font-size:23pt}h2{break-after:avoid}}
+
 a:hover {
   color: #153452;
 }
@@ -128,6 +129,16 @@ a:hover {
 .social-icons a:hover {
   color: #0878d1;
   background: #edf6ff;
+}
+
+@media (max-width: 480px) {
+  .academic-profile {
+    grid-template-columns: 130px 1fr;
+  }
+
+  .profile-photo {
+    width: 130px;
+  }
 }
 
 a:focus-visible {
