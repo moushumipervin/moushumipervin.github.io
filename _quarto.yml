@@ -4,7 +4,7 @@ project:
   resources:
     - assets/
 website:
-  title: "Moushumi Pervin"
+  title: "Mst Moushumi Pervin"
   description: "Mst Moushumi Pervin is a Ph.D. candidate in Statistics at Iowa State University studying calibration, missing data, and high-dimensional mediation."
   navbar:
     title: "Moushumi Pervin"
