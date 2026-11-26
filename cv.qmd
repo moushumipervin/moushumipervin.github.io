@@ -1,13 +1,48 @@
 ---
 title: "Curriculum Vitae"
-pagetitle: "Curriculum Vitae | Moushumi Pervin"
-title-block-banner: false
+pagetitle: "Curriculum Vitae"
 ---
 
-```{=html}
-<header class="page-intro"><p class="eyebrow">CURRICULUM VITAE</p><h1>Academic background<br>& experience.</h1><p class="lead">Research, teaching, publications, presentations, and professional service.</p><div class="actions"><a class="button" href="assets/Moushumi_Pervin_CV.pdf">Download full CV <span aria-hidden="true">↓</span></a></div><p class="availability">Source: CV supplied November 2026</p></header>
-<section class="section"><p class="eyebrow">EDUCATION</p><div class="cv-entry"><div><h2>Ph.D. in Statistics</h2><p>Iowa State University</p></div><div><p class="entry-meta">Expected May 2027</p><p>Major Professor: Jae Kwang Kim<br>Co-major Professor: Chunlin Li</p></div></div><div class="cv-entry"><div><h2>M.S. in Statistics</h2><p>Iowa State University</p></div><div><p class="entry-meta">Expected December 2026</p><p>Master’s creative component with Jae Kwang Kim</p></div></div><div class="cv-entry"><div><h2>M.S. in Statistics</h2><p>Jagannath University, Bangladesh</p></div><div><p class="entry-meta">2017</p><p>First in class</p></div></div><div class="cv-entry"><div><h2>B.Sc. in Statistics</h2><p>Jagannath University, Bangladesh</p></div><div><p class="entry-meta">2015</p><p>First in class</p></div></div></section>
-<section class="section"><p class="eyebrow">RESEARCH & PROFESSIONAL EXPERIENCE</p><div class="cv-entry"><div><h2>Graduate Research Assistant</h2><p>Center for Survey Statistics & Methodology<br>Iowa State University</p></div><div><p class="entry-meta">January 2023–present</p><p>Survey research, statistical methods, and survey–remote sensing integration.</p></div></div><div class="cv-entry"><div><h2>Teaching appointments</h2><p>Iowa State University · Jagannath University · BAIUST</p></div><div><a class="text-link" href="teaching.html">View courses and mentoring →</a></div></div></section>
-<section class="section"><p class="eyebrow">COMPUTATION</p><div class="two-column"><h2>Theory into practice.</h2><div><p><strong>Languages:</strong> R, Python, C++</p><p><strong>Methods and tools:</strong> INLA, Stan, LightGBM, AdaBoost, R Shiny, simulation studies</p><p><strong>Research computing:</strong> Linux, HPC, Git/GitHub, reproducible code releases</p></div></div></section>
-<section class="section"><p class="eyebrow">SELECTED SERVICE</p><div class="two-column"><h2>Academic community.</h2><div><p>Reviewer for the <em>Journal of Survey Statistics and Methodology</em> and <em>Annals of the Institute of Statistical Mathematics</em> (2026).</p><p>President, Bangladesh Student Association, Iowa State University (2023–2024).</p><p>Executive Committee Member, LAS Graduate Student Committee, Iowa State University (2023–2024).</p></div></div></section>
-```
+[Download full CV (PDF)](assets/Moushumi_Pervin_CV.pdf){.download-button}
+
+## Education
+
+**Ph.D. in Statistics**, [Iowa State University](https://www.iastate.edu/)  
+[Department of Statistics](https://www.stat.iastate.edu/) · Expected May 2027  
+Major Professor: [Jae Kwang Kim](https://sites.google.com/view/jaekwangkim/home)  
+Co-major Professor: [Chunlin Li](https://statistics.as.virginia.edu/people/chunlin-li)
+
+**M.S. in Statistics**, [Iowa State University](https://www.iastate.edu/)  
+Expected December 2026  
+Master’s creative component with [Jae Kwang Kim](https://sites.google.com/view/jaekwangkim/home).
+
+**M.S. in Statistics**, [Jagannath University](https://jnu.ac.bd/), Bangladesh  
+2017 · First in class.
+
+**B.Sc. in Statistics**, [Jagannath University](https://jnu.ac.bd/), Bangladesh  
+2015 · First in class.
+
+## Research and teaching appointments
+
+- **Graduate Research Assistant**, [Center for Survey Statistics and Methodology](https://www.cssm.iastate.edu/), Iowa State University · January 2023–present.
+- **Instructor**, [Department of Statistics](https://www.stat.iastate.edu/), Iowa State University · January–May 2026.
+- **Graduate Teaching Assistant**, Iowa State University · August 2021–December 2022.
+- **Lecturer in Statistics**, [Jagannath University](https://jnu.ac.bd/) · June 2019–July 2021.
+- **Lecturer in Statistics**, [BAIUST](https://baiust.ac.bd/) · September 2017–June 2019.
+
+[Courses and mentoring](teaching.qmd) · [Publications](publications.qmd)
+
+## Computational skills
+
+- **Programming:** R, Python, C++.
+- **Methods and tools:** INLA, Stan, LightGBM, AdaBoost, R Shiny, simulation studies.
+- **Research computing:** Linux, high-performance computing, Git/GitHub, and reproducible code releases.
+
+## Selected professional service
+
+- Reviewer, *Journal of Survey Statistics and Methodology* (2026).
+- Reviewer, *Annals of the Institute of Statistical Mathematics* (2026).
+- President, Bangladesh Student Association, Iowa State University (2023–2024).
+- Executive Committee Member, LAS Graduate Student Committee, Iowa State University (2023–2024).
+
+The downloadable CV includes the full publication list, presentations, awards, and additional experience.

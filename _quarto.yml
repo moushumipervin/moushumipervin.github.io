@@ -1,33 +1,37 @@
 project:
   type: website
   output-dir: dist
+  render:
+    - "*.qmd"
   resources:
     - assets/
 website:
   title: "Mst Moushumi Pervin"
-  description: "Mst Moushumi Pervin is a Ph.D. candidate in Statistics at Iowa State University studying calibration, missing data, and high-dimensional mediation."
+  site-url: "https://moushumipervin.github.io"
+  description: "Mst Moushumi Pervin, Ph.D. candidate in the Department of Statistics at Iowa State University. Research in calibration, missing data, data integration, and molecular mediation."
   navbar:
     title: "Mst Moushumi Pervin"
     background: light
     right:
       - href: index.qmd
-        text: Home
+        text: About
       - href: research.qmd
         text: Research
       - href: publications.qmd
         text: Publications
       - href: teaching.qmd
-        text: Teaching
+        text: Teaching & Mentoring
       - href: cv.qmd
         text: CV
   page-footer:
-    left: "Mst Moushumi Pervin · Iowa State University"
-    right: "[Email](mailto:moushumi@iastate.edu) · [GitHub](https://github.com/moushumipervin)"
+    left: "Mst Moushumi Pervin"
+    right: "[Department of Statistics](https://www.stat.iastate.edu/) · [Iowa State University](https://www.iastate.edu/)"
   search: false
 format:
   html:
     theme: cosmo
     css: styles.css
+    include-before-body: profile.html
     toc: false
     page-layout: full
     anchor-sections: false

@@ -1,15 +1,52 @@
 ---
 title: "Research"
-pagetitle: "Research | Moushumi Pervin"
-title-block-banner: false
+pagetitle: "Research"
 ---
 
-```{=html}
-<header class="page-intro"><p class="eyebrow">RESEARCH</p><h1>Making available information<br>count.</h1><p class="lead">I study how to make reliable and efficient statistical inference when data are incomplete, come from different sources, or contain many molecular measurements.</p></header>
-<nav class="topic-nav" aria-label="Research themes"><a href="#calibration">Calibration & integration</a><a href="#mediation">Molecular mediation</a><a href="#sampling">Adaptive sampling & surveys</a></nav>
-<section class="research-section" id="calibration"><div class="theme-label">01 / CALIBRATION & DATA INTEGRATION</div><h2>Learning from partially observed and heterogeneous data</h2><p>Incomplete records often contain useful information, even when the outcome or a covariate is missing. Calibration weighting uses auxiliary information to connect the observed sample to the population of interest.</p><h3>A unified calibration framework</h3><p>With H. Wang and Jae Kwang Kim, I developed a generalized entropy calibration framework for causal treatment effects, semi-supervised learning, and regression with missing covariates. It combines outcome-related calibration with propensity-based debiasing and accommodates cross-fitting and machine-learning estimation.</p><p>Under the framework’s assumptions, the resulting estimators are doubly robust and locally efficient. My contributions include methodological development, implementation, simulations, and applications to job-training and NHANES data.</p><div class="paper-links"><a href="https://arxiv.org/abs/2602.19203">Read preprint ↗</a><a href="https://doi.org/10.5281/zenodo.23003976">Reproducible code ↗</a></div><p class="status">Revision submitted to Statistical Science</p>
-<h3>Regularization and stable weights</h3><p>My ongoing work with Jae Kwang Kim studies calibration when many auxiliary variables make exact balance difficult or produce unstable weights. Questions include how to relax balance constraints, control weight ranges, and choose a tuning parameter using the observed data. Related work forms my master’s creative component on range-restricted L2 calibration.</p><p class="context-note">Regularized calibration research is associated with NSF Award No. 2242820.</p></section>
-<section class="research-section" id="mediation"><div class="theme-label">02 / MOLECULAR MEDIATION</div><h2>Understanding molecular contributions across related outcomes</h2><p>Many small molecular effects can contribute to an outcome. Effects with opposite signs may cancel in a signed aggregate, and separate analyses of related outcomes can miss how their mediation patterns are connected.</p><h3>Multiple and mixed-type outcomes</h3><p>With T. Yang and Chunlin Li, I am developing a multivariate variance-based mediation framework for high-dimensional molecular data. The framework studies trait-specific mediated variation and sharing across traits, using Bayesian estimation with Integrated Nested Laplace Approximation (INLA). Binary outcomes are represented through latent liabilities.</p><p>I implemented the estimation and simulation procedures and applied the framework to MESA proteomics data to study cardiovascular and metabolic traits. Causal interpretation depends on the model’s identification and structural assumptions.</p><p class="status">Manuscript in preparation</p><p class="context-note">Doctoral research with Chunlin Li; related to NIH R01HL184065-01.</p></section>
-<section class="research-section" id="sampling"><div class="theme-label">03 / ADAPTIVE SAMPLING & SURVEY APPLICATIONS</div><h2>Deciding what to measure, and connecting what we observe</h2><h3>TS–Neyman adaptive estimation</h3><p>When measurements are costly, an efficient allocation depends on stratum variances that may be unknown. With Kosuke Morikawa and Jae Kwang Kim, I co-developed a posterior-sampling approach that updates allocation as information accumulates.</p><p>My contributions include implementing the algorithm and designing and running numerical experiments. The paper establishes convergence toward Neyman allocation and asymptotic inference under its stated conditions.</p><div class="paper-links"><a href="https://arxiv.org/abs/2606.08418">Read preprint ↗</a></div><p class="status">Preprint · Prepared for submission to JMLR</p><h3>Survey and remote-sensing integration</h3><p>At Iowa State’s Center for Survey Statistics & Methodology, I worked on USDA-NRCS National Resources Inventory research. I integrated survey records with Cropland Data Layer information to predict annual land cover and land use between survey years, using LightGBM and AdaBoost and investigating disagreements between sources.</p><p class="status">Related manuscript in preparation</p></section>
-<section class="future-section"><p class="eyebrow">QUESTIONS AHEAD</p><h2>Connecting these directions</h2><p>These projects motivate further questions about stable inference with imperfect auxiliary information, shared molecular contributions across outcomes, and efficient measurement strategies when data collection is expensive.</p></section>
-```
+I develop statistical methods for reliable and efficient inference when data are incomplete, heterogeneous, high-dimensional, or costly to collect. My work connects methodological development with biomedical and survey applications.
+
+## Calibration and data integration {#calibration}
+
+### Inference with partially observed data
+
+With H. Wang and [Jae Kwang Kim](https://sites.google.com/view/jaekwangkim/home), I developed a generalized entropy calibration framework for causal treatment-effect estimation, semi-supervised learning, and regression with missing covariates. The framework combines outcome-related calibration with propensity-based debiasing and accommodates cross-fitting and machine-learning estimation.
+
+Under the framework’s assumptions, the resulting estimators are doubly robust and locally efficient. My contributions include methodological development, implementation, simulations, and applications to job-training and NHANES data.
+
+[Preprint](https://arxiv.org/abs/2602.19203) · [Reproducible code](https://doi.org/10.5281/zenodo.23003976)  
+*Revision submitted to Statistical Science.*
+
+### Regularization and stable weights
+
+My ongoing work with [Jae Kwang Kim](https://sites.google.com/view/jaekwangkim/home) studies calibration when many auxiliary variables make exact balance difficult or produce unstable weights. Questions include how to relax balance constraints, control weight ranges, and select a tuning parameter using observed data. Related work forms my master’s creative component on range-restricted L2 calibration.
+
+This regularized calibration research is associated with NSF Award No. 2242820.
+
+## High-dimensional molecular mediation {#mediation}
+
+With T. Yang and [Chunlin Li](https://statistics.as.virginia.edu/people/chunlin-li), I am developing a multivariate variance-based mediation framework for multiple correlated and mixed-type outcomes. The framework studies trait-specific mediated variation and sharing across traits, using Bayesian estimation with Integrated Nested Laplace Approximation (INLA). Binary outcomes are represented through latent liabilities.
+
+I implemented the estimation and simulation procedures and applied the framework to MESA proteomics data to study cardiovascular and metabolic traits. Causal interpretation depends on the model’s identification and structural assumptions.
+
+*Manuscript in preparation. Doctoral research related to NIH R01HL184065-01.*
+
+## Adaptive sampling and survey applications {#sampling}
+
+### TS–Neyman adaptive estimation
+
+When measurements are costly, an efficient allocation depends on stratum variances that may be unknown. With Kosuke Morikawa and [Jae Kwang Kim](https://sites.google.com/view/jaekwangkim/home), I co-developed a posterior-sampling approach that updates allocation as information accumulates.
+
+My contributions include implementing the algorithm and designing and running numerical experiments. The paper establishes convergence toward Neyman allocation and asymptotic inference under its stated conditions.
+
+[Preprint](https://arxiv.org/abs/2606.08418)  
+*Prepared for submission to the Journal of Machine Learning Research.*
+
+### Survey and remote-sensing integration
+
+At Iowa State’s [Center for Survey Statistics and Methodology](https://www.cssm.iastate.edu/), I worked on USDA-NRCS National Resources Inventory research. I integrated survey records with Cropland Data Layer information to predict annual land cover and land use between survey years, using LightGBM and AdaBoost and investigating disagreements between sources.
+
+*Related manuscript in preparation.*
+
+## Future directions
+
+These projects motivate further questions about stable inference with imperfect auxiliary information, shared molecular contributions across outcomes, and efficient measurement strategies when data collection is expensive.
