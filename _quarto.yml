@@ -32,6 +32,9 @@ format:
     theme: cosmo
     css: styles.css
     include-before-body: profile.html
+    include-in-header:
+      text: |
+        <meta name="google-site-verification" content="8BNJXTq8JpCESFGCj1MHtzYiSd5HR5ZitxJnIjV-i9A" />
     toc: false
     page-layout: full
     anchor-sections: false
