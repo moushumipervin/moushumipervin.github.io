@@ -23,9 +23,6 @@ website:
         text: Teaching & Mentoring
       - href: cv.qmd
         text: CV
-  page-footer:
-    left: "Mst Moushumi Pervin"
-    right: "[Department of Statistics](https://www.stat.iastate.edu/) · [Iowa State University](https://www.iastate.edu/)"
   search: false
 format:
   html:
