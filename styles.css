@@ -1,5 +1,12 @@
 /* Academic portfolio. Content is edited in .qmd files; shared profile in profile.html. */
-:root{--ink:#26363d;--muted:#647078;--accent:#21695d;--line:#e4e8e7;--paper:#fff;--soft:#f5f8f7}
+:root {
+  --ink: #203047;
+  --muted: #596779;
+  --accent: #244b73;
+  --line: #dce3eb;
+  --paper: #ffffff;
+  --soft: #f1f5f9;
+}
 html{scroll-padding-top:100px}body{background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.75}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:4px;color:#134b41}a:focus-visible{outline:3px solid #5a9c8e;outline-offset:4px;border-radius:2px}h1,h2,h3{color:var(--ink);font-weight:600;line-height:1.35;letter-spacing:-.025em}h1{font-family:Georgia,'Times New Roman',serif;font-size:34px;font-weight:400;margin:0 0 25px}h2{font-size:23px;margin:34px 0 17px;padding-bottom:9px;border-bottom:1px solid var(--line)}h3{font-size:18px;margin:26px 0 12px}p{margin:0 0 18px}strong{font-weight:600}ul,ol{padding-left:23px}li{padding-left:3px;margin-bottom:11px}li>p{margin-bottom:8px}hr{color:var(--line);opacity:1}section{scroll-margin-top:95px}
 .navbar{background:#fff!important;border-top:3px solid var(--accent);border-bottom:1px solid var(--line);padding:18px 0}.navbar-container{width:100%;max-width:1150px;margin:0 auto;padding:0 30px}.navbar-brand{font-family:Georgia,'Times New Roman',serif;font-size:21px;letter-spacing:-.02em;color:var(--ink)!important}.navbar-nav{gap:10px}.nav-link{font-size:14px;color:var(--muted)!important}.nav-link.active{color:var(--accent)!important;font-weight:600;text-decoration:underline;text-underline-offset:9px}.navbar-toggler{border:0}
 #quarto-content{display:block!important;width:100%;max-width:1150px;margin:0 auto;padding:0 30px;min-height:calc(100vh - 160px)}main.content{display:block!important;max-width:none!important;width:auto;margin:0 0 0 275px;padding:46px 0 55px;grid-column:auto!important}main.content .page-columns{display:block!important}main.content section>*,main.content header>*{grid-column:auto!important}#quarto-margin-sidebar{display:none}#title-block-header{margin:0 0 25px}#title-block-header .title{margin:0}.quarto-title-meta{display:none}.quarto-title .quarto-categories{display:none}.quarto-title-block{margin-bottom:0}
@@ -9,3 +16,27 @@ html{scroll-padding-top:100px}body{background:var(--paper);color:var(--ink);font
 @media(max-width:480px){body{font-size:15px;line-height:1.75}.academic-profile{grid-template-columns:95px 1fr;gap:19px;padding:0 20px;margin-top:25px}.profile-photo{width:95px}.profile-name{font-size:21px}.profile-role,.profile-affiliation{font-size:12px}.profile-graduation{font-size:11px}.profile-links{font-size:12px;gap:5px 12px}.navbar-brand{font-size:18px}.navbar-container{padding:0 20px}#quarto-content{padding:0 20px}main.content{padding-top:30px}h1{font-size:29px}h2{font-size:21px;margin-top:28px}h3{font-size:17px}.nav-footer{font-size:10px;display:block;text-align:center}.nav-footer-left,.nav-footer-right{text-align:center!important;margin-bottom:7px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.academic-profile,.navbar,.nav-footer{display:none}main.content{margin:0;padding:0}#quarto-content{max-width:none;padding:0}body{font-size:11pt}a{color:inherit}h1{font-size:23pt}h2{break-after:avoid}}
+a:hover {
+  color: #153452;
+}
+
+a:focus-visible {
+  outline-color: #244b73;
+}
+
+.cv-download,
+.download-button {
+  border-color: #b8c9db;
+  background: #f1f5f9;
+  color: #244b73;
+}
+
+.cv-download:hover,
+.download-button:hover {
+  background: #e2ebf4;
+}
+
+.social-icons a:hover {
+  color: #244b73;
+  background: #e2ebf4;
+}
