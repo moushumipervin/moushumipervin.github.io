@@ -3,7 +3,6 @@ title: "Publications"
 pagetitle: "Publications"
 ---
 
-[Google Scholar](https://scholar.google.com/citations?user=PyaRbnQAAAAJ&hl=en) · [Download CV](assets/Moushumi_Pervin_CV.pdf)
 
 ## Preprints
 
