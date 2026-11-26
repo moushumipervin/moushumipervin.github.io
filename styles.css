@@ -1,12 +1,5 @@
 /* Academic portfolio. Content is edited in .qmd files; shared profile in profile.html. */
-:root {
-  --ink: #172b45;
-  --muted: #43566d;
-  --accent: #173f6b;
-  --line: #b8c8da;
-  --paper: #e8eff7;
-  --soft: #d6e2f0;
-}
+:root {--ink: #172b45;--muted: #43566d;--accent: #173f6b;--line: #b8c8da;--paper: #e8eff7;--soft: #d6e2f0;}
 html{scroll-padding-top:100px}body{background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.75}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:4px;color:#134b41}a:focus-visible{outline:3px solid #5a9c8e;outline-offset:4px;border-radius:2px}h1,h2,h3{color:var(--ink);font-weight:600;line-height:1.35;letter-spacing:-.025em}h1{font-family:Georgia,'Times New Roman',serif;font-size:34px;font-weight:400;margin:0 0 25px}h2{font-size:23px;margin:34px 0 17px;padding-bottom:9px;border-bottom:1px solid var(--line)}h3{font-size:18px;margin:26px 0 12px}p{margin:0 0 18px}strong{font-weight:600}ul,ol{padding-left:23px}li{padding-left:3px;margin-bottom:11px}li>p{margin-bottom:8px}hr{color:var(--line);opacity:1}section{scroll-margin-top:95px}
 .navbar{background:#fff!important;border-top:3px solid var(--accent);border-bottom:1px solid var(--line);padding:18px 0}.navbar-container{width:100%;max-width:1150px;margin:0 auto;padding:0 30px}.navbar-brand{font-family:Georgia,'Times New Roman',serif;font-size:21px;letter-spacing:-.02em;color:var(--ink)!important}.navbar-nav{gap:10px}.nav-link{font-size:14px;color:var(--muted)!important}.nav-link.active{color:var(--accent)!important;font-weight:600;text-decoration:underline;text-underline-offset:9px}.navbar-toggler{border:0}
 #quarto-content{display:block!important;width:100%;max-width:1150px;margin:0 auto;padding:0 30px;min-height:calc(100vh - 160px)}main.content{display:block!important;max-width:none!important;width:auto;margin:0 0 0 275px;padding:46px 0 55px;grid-column:auto!important}main.content .page-columns{display:block!important}main.content section>*,main.content header>*{grid-column:auto!important}#quarto-margin-sidebar{display:none}#title-block-header{margin:0 0 25px}#title-block-header .title{margin:0}.quarto-title-meta{display:none}.quarto-title .quarto-categories{display:none}.quarto-title-block{margin-bottom:0}
@@ -66,4 +59,77 @@ body,
 /* Darker profile name */
 .profile-name {
   color: #172b45;
+}
+/* White background with bright blue links */
+:root {
+  --ink: #333333;
+  --muted: #555555;
+  --accent: #2196ff;
+  --line: #e5e5e5;
+  --paper: #ffffff;
+  --soft: #f5f9ff;
+}
+
+body,
+#quarto-content,
+.nav-footer {
+  background: #ffffff;
+}
+
+body,
+main.content p,
+main.content li {
+  color: #555555;
+}
+
+a,
+.profile-affiliation a,
+.profile-links a {
+  color: #2196ff;
+}
+
+a:hover {
+  color: #0878d1;
+}
+
+.navbar {
+  background: #ffffff !important;
+  border-top: 3px solid #2196ff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-brand,
+.profile-name {
+  color: #333333 !important;
+}
+
+.nav-link {
+  color: #555555 !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #2196ff !important;
+}
+
+.navbar-toggler-icon {
+  filter: none;
+}
+
+.cv-download,
+.download-button {
+  color: #2196ff;
+  border-color: #2196ff;
+  background: #ffffff;
+}
+
+.cv-download:hover,
+.download-button:hover,
+.social-icons a:hover {
+  color: #0878d1;
+  background: #edf6ff;
+}
+
+a:focus-visible {
+  outline-color: #2196ff;
 }
