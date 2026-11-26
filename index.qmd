@@ -19,9 +19,9 @@ title-block-banner: false
 </aside></section>
 <section class="section about-section"><p class="eyebrow">ABOUT MY WORK</p><div class="two-column"><h2>Statistical foundations.<br>Questions from practice.</h2><div><p>
 I work with Professors
-<a href="https://www.stat.iastate.edu/people/jae-kwang-kim">Jae Kwang Kim</a>
+<a href="https://sites.google.com/view/jaekwangkim/home">Jae Kwang Kim</a>
 and
-<a href="https://www.stat.iastate.edu/people/chunlin-li">Chunlin Li</a>.
+<a href="https://statistics.as.virginia.edu/people/chunlin-li">Chunlin Li</a>.
 My research combines statistical theory, computation, simulation studies,
 and collaborative data analysis.
 </p><p>Current projects address calibration weighting for partially observed data, molecular mediation across multiple outcomes, and adaptive allocation of costly measurements. My applied experience also includes integrating survey and remote-sensing data for the National Resources Inventory.</p><p>Before Iowa State, I served as a lecturer in statistics at Jagannath University and BAIUST in Bangladesh.</p><a class="text-link" href="teaching.html">Teaching and mentoring <span aria-hidden="true">→</span></a></div></div></section>
