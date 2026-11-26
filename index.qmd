@@ -1,6 +1,6 @@
 ---
 title: "Home"
-pagetitle: "Home | Moushumi Pervin"
+pagetitle: "Home | Mst Moushumi Pervin"
 title-block-banner: false
 ---
 
@@ -8,7 +8,7 @@ title-block-banner: false
 <section class="hero">
 <div class="hero-copy"><p class="eyebrow">STATISTICS · THEORY · APPLICATIONS</p>
 <h1>Mst Moushumi<br>Pervin<span class="name-dot">.</span></h1>
-<p class="position">Ph.D. Candidate in Statistics<br>Iowa State University</p>
+<p class="position">Ph.D. Candidate in Statistics<br><a href="https://www.iastate.edu/">Iowa State University</a></p>
 <p class="hero-statement">Reliable inference.<br>More from the data we have.</p>
 <p class="intro">I develop statistical methods for incomplete, heterogeneous, and high-dimensional data, with applications in biomedical research and population surveys.</p>
 <div class="actions"><a class="button" href="research.html">Explore my research <span aria-hidden="true">↗</span></a><a class="text-link" href="assets/Moushumi_Pervin_CV.pdf">Download CV <span aria-hidden="true">↓</span></a></div>
