@@ -1,11 +1,11 @@
 /* Academic portfolio. Content is edited in .qmd files; shared profile in profile.html. */
 :root {
-  --ink: #203047;
-  --muted: #596779;
-  --accent: #244b73;
-  --line: #dce3eb;
-  --paper: #ffffff;
-  --soft: #f1f5f9;
+  --ink: #172b45;
+  --muted: #43566d;
+  --accent: #173f6b;
+  --line: #b8c8da;
+  --paper: #e8eff7;
+  --soft: #d6e2f0;
 }
 html{scroll-padding-top:100px}body{background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.75}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:4px;color:#134b41}a:focus-visible{outline:3px solid #5a9c8e;outline-offset:4px;border-radius:2px}h1,h2,h3{color:var(--ink);font-weight:600;line-height:1.35;letter-spacing:-.025em}h1{font-family:Georgia,'Times New Roman',serif;font-size:34px;font-weight:400;margin:0 0 25px}h2{font-size:23px;margin:34px 0 17px;padding-bottom:9px;border-bottom:1px solid var(--line)}h3{font-size:18px;margin:26px 0 12px}p{margin:0 0 18px}strong{font-weight:600}ul,ol{padding-left:23px}li{padding-left:3px;margin-bottom:11px}li>p{margin-bottom:8px}hr{color:var(--line);opacity:1}section{scroll-margin-top:95px}
 .navbar{background:#fff!important;border-top:3px solid var(--accent);border-bottom:1px solid var(--line);padding:18px 0}.navbar-container{width:100%;max-width:1150px;margin:0 auto;padding:0 30px}.navbar-brand{font-family:Georgia,'Times New Roman',serif;font-size:21px;letter-spacing:-.02em;color:var(--ink)!important}.navbar-nav{gap:10px}.nav-link{font-size:14px;color:var(--muted)!important}.nav-link.active{color:var(--accent)!important;font-weight:600;text-decoration:underline;text-underline-offset:9px}.navbar-toggler{border:0}
@@ -39,4 +39,31 @@ a:focus-visible {
 .social-icons a:hover {
   color: #244b73;
   background: #e2ebf4;
+}
+/* Deep navy navigation */
+.navbar {
+  background: #173451 !important;
+  border-color: #173451;
+}
+
+.navbar-brand,
+.nav-link,
+.nav-link.active {
+  color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+/* Visible blue background */
+body,
+#quarto-content,
+.nav-footer {
+  background: #e8eff7;
+}
+
+/* Darker profile name */
+.profile-name {
+  color: #172b45;
 }
